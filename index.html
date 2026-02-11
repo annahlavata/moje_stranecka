@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Jizerské hory</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 40px 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .cards-container {
+            display: flex;
+            grid-template-columns: repeat(auto-fit, 240px);
+            gap: 50px;
+            justify-content: center;
+            padding: 20px
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 14px;
+        }
+
+        .card-title {
+            font-size: 18px;
+            margin: 0 0 8px;
+        }
+
+        .card-text {
+            font-size: 14px;
+            color: #555;
+        }
+
+        .card-button {
+            display: block;
+            margin-top: 12px;
+            padding: 8px;
+            text-align: center;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+
+        .card-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Jizerské hory – zajímavosti</h1>
+
+    <div class="cards-container">
+
+        <div class="card">
+            <img src="priroda.jpg" alt="Jizerské hory">
+            <div class="card-content">
+                <h2 class="card-title">Jizerské hory</h2>
+                <p class="card-text">Pohoří v severních Čechách.</p>
+                <a href="#" class="card-button">Více info</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="smrk.jpg" alt="Smrk">
+            <div class="card-content">
+                <h2 class="card-title">Smrk</h2>
+                <p class="card-text">Nejvyšší hora pohoří.</p>
+                <a href="#" class="card-button">Více info</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="Raseliniste.jpg" alt="Rašeliniště">
+            <div class="card-content">
+                <h2 class="card-title">Rašeliniště</h2>
+                <p class="card-text">Chráněná příroda.</p>
+                <a href="#" class="card-button">Více info</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="rozhledny.jpg" alt="Rozhledny">
+            <div class="card-content">
+                <h2 class="card-title">Rozhledny</h2>
+                <p class="card-text">Krásné výhledy.</p>
+                <a href="#" class="card-button">Více info</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="turistika.jpg" alt="Turistika">
+            <div class="card-content">
+                <h2 class="card-title">Turistika</h2>
+                <p class="card-text">Ideální na výlety.</p>
+                <a href="#" class="card-button">Více info</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="bezky.jpg" alt="Běžky">
+            <div class="card-content">
+                <h2 class="card-title">Běžecké tratě</h2>
+                <p class="card-text">Zima v horách.</p>
+                <a href="#" class="card-button">Více info</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="vodopady.jpg" alt="Vodopády">
+            <div class="card-content">
+                <h2 class="card-title">Vodopády</h2>
+                <p class="card-text">Přírodní krásy.</p>
+                <a href="#" class="card-button">Více info</a>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
